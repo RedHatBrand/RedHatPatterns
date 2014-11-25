@@ -1,0 +1,28 @@
+{
+  "name": "red-hat-brand-patterns",
+  "version": "1.0.0",
+  "description": "Red Hat Brand Patterns",
+  "main": "red-hat-patterns.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RedHatBrand/RedHatPatterns.git"
+  },
+  "author": {
+    "name": "Brad Parker",
+    "email": "bparker@redhat.com"
+  },
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/RedHatBrand/RedHatPatterns/issues"
+  },
+  "homepage": "https://github.com/RedHatBrand/RedHatPatterns",
+  "devDependencies": {
+    "connect": "^3.3.3",
+    "gulp": "^3.8.10",
+    "gulp-mustache-plus": "^1.0.1",
+    "serve-static": "^1.7.1"
+  }
+}

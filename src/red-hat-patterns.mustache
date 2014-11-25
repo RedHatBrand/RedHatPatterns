@@ -1,0 +1,51 @@
+(function (global) {
+  __slice = [].slice;
+
+  var patterns = {
+    {{#patterns}}
+    '{{ name }}': '{{{ value }}}',
+    {{/patterns}}
+  };
+
+  function makeTile (pattern) {
+    var d = document.createElement('div');
+    d.classList.add('tile-pattern-tile');
+    d.style.margin = 0;
+    d.style.float = 'left';
+    d.innerHTML = pattern;
+    d.children[0].style.display = 'block';
+    return d;
+  }
+
+  function tilePattern (pattern, element) {
+    var n,
+        d;
+
+    element.classList.add('tile-pattern-container');
+    element.style.overflow = 'hidden';
+    
+    d = makeTile(pattern);
+
+    element.appendChild(d);
+
+    n = (element.offsetWidth * element.offsetHeight) / (d.offsetWidth * d.offsetHeight);
+
+    for(var i = 0; i < n; i++) {
+      d = makeTile(pattern);
+
+      element.appendChild(d);
+    }
+  }
+
+  var fillable = __slice.call(document.querySelectorAll('[data-red-hat-pattern]'));
+
+  fillable.forEach(function (elem) {
+    var pattern = elem.dataset.redHatPattern || 'corporate';
+    tilePattern(patterns[pattern], elem);
+  });
+  
+  global.tilePattern = tilePattern;
+})(window);
+
+
+  
