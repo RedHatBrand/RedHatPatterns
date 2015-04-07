@@ -1,0 +1,601 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'README.md',
+1 verbose cli   'gulpfile.js',
+1 verbose cli   'index.html',
+1 verbose cli   'node_modules',
+1 verbose cli   'package.json',
+1 verbose cli   'patterns',
+1 verbose cli   'red-hat-patterns.js',
+1 verbose cli   'src' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'README.md', null ]
+6 verbose cache add name=undefined spec="README.md" args=["README.md",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'README.md',
+7 verbose parsed url   path: 'README.md',
+7 verbose parsed url   href: 'README.md' }
+8 verbose cache add [ 'gulpfile.js', null ]
+9 verbose cache add name=undefined spec="gulpfile.js" args=["gulpfile.js",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'gulpfile.js',
+10 verbose parsed url   path: 'gulpfile.js',
+10 verbose parsed url   href: 'gulpfile.js' }
+11 verbose cache add [ 'index.html', null ]
+12 verbose cache add name=undefined spec="index.html" args=["index.html",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'index.html',
+13 verbose parsed url   path: 'index.html',
+13 verbose parsed url   href: 'index.html' }
+14 verbose cache add [ 'node_modules', null ]
+15 verbose cache add name=undefined spec="node_modules" args=["node_modules",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'node_modules',
+16 verbose parsed url   path: 'node_modules',
+16 verbose parsed url   href: 'node_modules' }
+17 verbose cache add [ 'package.json', null ]
+18 verbose cache add name=undefined spec="package.json" args=["package.json",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'package.json',
+19 verbose parsed url   path: 'package.json',
+19 verbose parsed url   href: 'package.json' }
+20 verbose cache add [ 'patterns', null ]
+21 verbose cache add name=undefined spec="patterns" args=["patterns",null]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: 'patterns',
+22 verbose parsed url   path: 'patterns',
+22 verbose parsed url   href: 'patterns' }
+23 verbose cache add [ 'red-hat-patterns.js', null ]
+24 verbose cache add name=undefined spec="red-hat-patterns.js" args=["red-hat-patterns.js",null]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: 'red-hat-patterns.js',
+25 verbose parsed url   path: 'red-hat-patterns.js',
+25 verbose parsed url   href: 'red-hat-patterns.js' }
+26 verbose cache add [ 'src', null ]
+27 verbose cache add name=undefined spec="src" args=["src",null]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: 'src',
+28 verbose parsed url   path: 'src',
+28 verbose parsed url   href: 'src' }
+29 silly lockFile 8ec9a00b-README-md README.md
+30 verbose lock README.md /Users/beauhankins/.npm/8ec9a00b-README-md.lock
+31 silly lockFile ee9d2cf1-gulpfile-js gulpfile.js
+32 verbose lock gulpfile.js /Users/beauhankins/.npm/ee9d2cf1-gulpfile-js.lock
+33 silly lockFile f6013a00-index-html index.html
+34 verbose lock index.html /Users/beauhankins/.npm/f6013a00-index-html.lock
+35 silly lockFile 9193e35d-node-modules node_modules
+36 verbose lock node_modules /Users/beauhankins/.npm/9193e35d-node-modules.lock
+37 silly lockFile 7030d0b2-package-json package.json
+38 verbose lock package.json /Users/beauhankins/.npm/7030d0b2-package-json.lock
+39 silly lockFile 5b13db14-patterns patterns
+40 verbose lock patterns /Users/beauhankins/.npm/5b13db14-patterns.lock
+41 silly lockFile 07cb2ec1-red-hat-patterns-js red-hat-patterns.js
+42 verbose lock red-hat-patterns.js /Users/beauhankins/.npm/07cb2ec1-red-hat-patterns-js.lock
+43 silly lockFile f27fede2-src src
+44 verbose lock src /Users/beauhankins/.npm/f27fede2-src.lock
+45 silly lockFile 9193e35d-node-modules node_modules
+46 silly lockFile 9193e35d-node-modules node_modules
+47 verbose addNamed [ 'node_modules', '' ]
+48 verbose addNamed [ null, '*' ]
+49 silly lockFile 1f43ecc2-node-modules node_modules@
+50 verbose lock node_modules@ /Users/beauhankins/.npm/1f43ecc2-node-modules.lock
+51 silly lockFile 5b13db14-patterns patterns
+52 silly lockFile 5b13db14-patterns patterns
+53 verbose addNamed [ 'patterns', '' ]
+54 verbose addNamed [ null, '*' ]
+55 silly lockFile 62e3d83c-patterns patterns@
+56 verbose lock patterns@ /Users/beauhankins/.npm/62e3d83c-patterns.lock
+57 silly lockFile f27fede2-src src
+58 silly lockFile f27fede2-src src
+59 silly addNameRange { name: 'node_modules', range: '*', hasData: false }
+60 verbose addNamed [ 'src', '' ]
+61 verbose addNamed [ null, '*' ]
+62 silly lockFile f898f162-src src@
+63 verbose lock src@ /Users/beauhankins/.npm/f898f162-src.lock
+64 verbose request where is /node_modules
+65 verbose request registry https://registry.npmjs.org/
+66 verbose request id c9979b389970e030
+67 verbose url raw /node_modules
+68 verbose url resolving [ 'https://registry.npmjs.org/', './node_modules' ]
+69 verbose url resolved https://registry.npmjs.org/node_modules
+70 verbose request where is https://registry.npmjs.org/node_modules
+71 info trying registry request attempt 1 at 14:55:50
+72 http GET https://registry.npmjs.org/node_modules
+73 silly addNameRange { name: 'patterns', range: '*', hasData: false }
+74 verbose request where is /patterns
+75 verbose request registry https://registry.npmjs.org/
+76 verbose url raw /patterns
+77 verbose url resolving [ 'https://registry.npmjs.org/', './patterns' ]
+78 verbose url resolved https://registry.npmjs.org/patterns
+79 verbose request where is https://registry.npmjs.org/patterns
+80 info trying registry request attempt 1 at 14:55:50
+81 http GET https://registry.npmjs.org/patterns
+82 silly addNameRange { name: 'src', range: '*', hasData: false }
+83 verbose request where is /src
+84 verbose request registry https://registry.npmjs.org/
+85 verbose url raw /src
+86 verbose url resolving [ 'https://registry.npmjs.org/', './src' ]
+87 verbose url resolved https://registry.npmjs.org/src
+88 verbose request where is https://registry.npmjs.org/src
+89 info trying registry request attempt 1 at 14:55:50
+90 http GET https://registry.npmjs.org/src
+91 verbose chmod /var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550771-0.3375590059440583/tmp.tgz 644
+92 verbose chmod /var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550768-0.3053816833999008/tmp.tgz 644
+93 verbose tar unpack /var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550771-0.3375590059440583/tmp.tgz
+94 silly lockFile 49deccc0--3375590059440583-tmp-tgz-unpack tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550771-0.3375590059440583/tmp.tgz-unpack
+95 verbose lock tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550771-0.3375590059440583/tmp.tgz-unpack /Users/beauhankins/.npm/49deccc0--3375590059440583-tmp-tgz-unpack.lock
+96 silly lockFile 1726950a-50771-0-3375590059440583-tmp-tgz tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550771-0.3375590059440583/tmp.tgz
+97 verbose lock tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550771-0.3375590059440583/tmp.tgz /Users/beauhankins/.npm/1726950a-50771-0-3375590059440583-tmp-tgz.lock
+98 verbose chmod /var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550769-0.05882929591462016/tmp.tgz 644
+99 verbose tar unpack /var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550768-0.3053816833999008/tmp.tgz
+100 silly lockFile 0fb4a2dd--3053816833999008-tmp-tgz-unpack tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550768-0.3053816833999008/tmp.tgz-unpack
+101 verbose lock tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550768-0.3053816833999008/tmp.tgz-unpack /Users/beauhankins/.npm/0fb4a2dd--3053816833999008-tmp-tgz-unpack.lock
+102 silly lockFile fb1d515a-50768-0-3053816833999008-tmp-tgz tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550768-0.3053816833999008/tmp.tgz
+103 verbose lock tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550768-0.3053816833999008/tmp.tgz /Users/beauhankins/.npm/fb1d515a-50768-0-3053816833999008-tmp-tgz.lock
+104 verbose chmod /var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550769-0.11466996860690415/tmp.tgz 644
+105 verbose chmod /var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550770-0.3321087555959821/tmp.tgz 644
+106 verbose tar unpack /var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550769-0.05882929591462016/tmp.tgz
+107 silly lockFile 3ffa20d1-05882929591462016-tmp-tgz-unpack tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550769-0.05882929591462016/tmp.tgz-unpack
+108 verbose lock tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550769-0.05882929591462016/tmp.tgz-unpack /Users/beauhankins/.npm/3ffa20d1-05882929591462016-tmp-tgz-unpack.lock
+109 silly lockFile 15df13dc-0769-0-05882929591462016-tmp-tgz tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550769-0.05882929591462016/tmp.tgz
+110 verbose lock tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550769-0.05882929591462016/tmp.tgz /Users/beauhankins/.npm/15df13dc-0769-0-05882929591462016-tmp-tgz.lock
+111 verbose tar unpack /var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550769-0.11466996860690415/tmp.tgz
+112 silly lockFile 55e05f42-11466996860690415-tmp-tgz-unpack tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550769-0.11466996860690415/tmp.tgz-unpack
+113 verbose lock tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550769-0.11466996860690415/tmp.tgz-unpack /Users/beauhankins/.npm/55e05f42-11466996860690415-tmp-tgz-unpack.lock
+114 silly lockFile b0d98b5d-0769-0-11466996860690415-tmp-tgz tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550769-0.11466996860690415/tmp.tgz
+115 verbose lock tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550769-0.11466996860690415/tmp.tgz /Users/beauhankins/.npm/b0d98b5d-0769-0-11466996860690415-tmp-tgz.lock
+116 verbose tar unpack /var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550770-0.3321087555959821/tmp.tgz
+117 silly lockFile 28d08509--3321087555959821-tmp-tgz-unpack tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550770-0.3321087555959821/tmp.tgz-unpack
+118 verbose lock tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550770-0.3321087555959821/tmp.tgz-unpack /Users/beauhankins/.npm/28d08509--3321087555959821-tmp-tgz-unpack.lock
+119 silly lockFile bfb1d3fe-50770-0-3321087555959821-tmp-tgz tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550770-0.3321087555959821/tmp.tgz
+120 verbose lock tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550770-0.3321087555959821/tmp.tgz /Users/beauhankins/.npm/bfb1d3fe-50770-0-3321087555959821-tmp-tgz.lock
+121 silly gunzTarPerm modes [ '755', '644' ]
+122 silly gunzTarPerm modes [ '755', '644' ]
+123 silly gunzTarPerm modes [ '755', '644' ]
+124 silly gunzTarPerm modes [ '755', '644' ]
+125 silly gunzTarPerm modes [ '755', '644' ]
+126 error not a package /var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550771-0.3375590059440583/tmp.tgz
+127 silly lockFile 49deccc0--3375590059440583-tmp-tgz-unpack tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550771-0.3375590059440583/tmp.tgz-unpack
+128 silly lockFile 49deccc0--3375590059440583-tmp-tgz-unpack tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550771-0.3375590059440583/tmp.tgz-unpack
+129 error not a package /var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550768-0.3053816833999008/tmp.tgz
+130 silly lockFile 0fb4a2dd--3053816833999008-tmp-tgz-unpack tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550768-0.3053816833999008/tmp.tgz-unpack
+131 silly lockFile 0fb4a2dd--3053816833999008-tmp-tgz-unpack tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550768-0.3053816833999008/tmp.tgz-unpack
+132 silly lockFile 1726950a-50771-0-3375590059440583-tmp-tgz tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550771-0.3375590059440583/tmp.tgz
+133 silly lockFile 1726950a-50771-0-3375590059440583-tmp-tgz tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550771-0.3375590059440583/tmp.tgz
+134 error not a package /var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550769-0.05882929591462016/tmp.tgz
+135 silly lockFile 3ffa20d1-05882929591462016-tmp-tgz-unpack tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550769-0.05882929591462016/tmp.tgz-unpack
+136 silly lockFile 3ffa20d1-05882929591462016-tmp-tgz-unpack tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550769-0.05882929591462016/tmp.tgz-unpack
+137 silly lockFile fb1d515a-50768-0-3053816833999008-tmp-tgz tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550768-0.3053816833999008/tmp.tgz
+138 silly lockFile fb1d515a-50768-0-3053816833999008-tmp-tgz tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550768-0.3053816833999008/tmp.tgz
+139 error not a package /var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550769-0.11466996860690415/tmp.tgz
+140 silly lockFile 55e05f42-11466996860690415-tmp-tgz-unpack tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550769-0.11466996860690415/tmp.tgz-unpack
+141 silly lockFile 55e05f42-11466996860690415-tmp-tgz-unpack tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550769-0.11466996860690415/tmp.tgz-unpack
+142 error not a package /var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550770-0.3321087555959821/tmp.tgz
+143 silly lockFile 28d08509--3321087555959821-tmp-tgz-unpack tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550770-0.3321087555959821/tmp.tgz-unpack
+144 silly lockFile 28d08509--3321087555959821-tmp-tgz-unpack tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550770-0.3321087555959821/tmp.tgz-unpack
+145 silly lockFile 07cb2ec1-red-hat-patterns-js red-hat-patterns.js
+146 silly lockFile 07cb2ec1-red-hat-patterns-js red-hat-patterns.js
+147 silly lockFile 15df13dc-0769-0-05882929591462016-tmp-tgz tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550769-0.05882929591462016/tmp.tgz
+148 silly lockFile 15df13dc-0769-0-05882929591462016-tmp-tgz tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550769-0.05882929591462016/tmp.tgz
+149 silly lockFile 8ec9a00b-README-md README.md
+150 silly lockFile 8ec9a00b-README-md README.md
+151 silly lockFile b0d98b5d-0769-0-11466996860690415-tmp-tgz tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550769-0.11466996860690415/tmp.tgz
+152 silly lockFile b0d98b5d-0769-0-11466996860690415-tmp-tgz tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550769-0.11466996860690415/tmp.tgz
+153 silly lockFile bfb1d3fe-50770-0-3321087555959821-tmp-tgz tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550770-0.3321087555959821/tmp.tgz
+154 silly lockFile bfb1d3fe-50770-0-3321087555959821-tmp-tgz tar:///var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/1428382550770-0.3321087555959821/tmp.tgz
+155 verbose addNamed [ 'red-hat-patterns.js', '' ]
+156 verbose addNamed [ null, '*' ]
+157 silly lockFile 2c5e37e7-red-hat-patterns-js red-hat-patterns.js@
+158 verbose lock red-hat-patterns.js@ /Users/beauhankins/.npm/2c5e37e7-red-hat-patterns-js.lock
+159 silly lockFile ee9d2cf1-gulpfile-js gulpfile.js
+160 silly lockFile ee9d2cf1-gulpfile-js gulpfile.js
+161 verbose addNamed [ 'README.md', '' ]
+162 verbose addNamed [ null, '*' ]
+163 silly lockFile cef106a0-README-md README.md@
+164 verbose lock README.md@ /Users/beauhankins/.npm/cef106a0-README-md.lock
+165 silly lockFile 7030d0b2-package-json package.json
+166 silly lockFile 7030d0b2-package-json package.json
+167 silly lockFile f6013a00-index-html index.html
+168 silly lockFile f6013a00-index-html index.html
+169 verbose addNamed [ 'gulpfile.js', '' ]
+170 verbose addNamed [ null, '*' ]
+171 silly lockFile d272349f-gulpfile-js gulpfile.js@
+172 verbose lock gulpfile.js@ /Users/beauhankins/.npm/d272349f-gulpfile-js.lock
+173 verbose addNamed [ 'package.json', '' ]
+174 verbose addNamed [ null, '*' ]
+175 silly lockFile 20e84675-package-json package.json@
+176 verbose lock package.json@ /Users/beauhankins/.npm/20e84675-package-json.lock
+177 verbose addNamed [ 'index.html', '' ]
+178 verbose addNamed [ null, '*' ]
+179 silly lockFile 31508839-index-html index.html@
+180 verbose lock index.html@ /Users/beauhankins/.npm/31508839-index-html.lock
+181 silly addNameRange { name: 'red-hat-patterns.js', range: '*', hasData: false }
+182 silly addNameRange { name: 'README.md', range: '*', hasData: false }
+183 verbose request where is /red-hat-patterns.js
+184 verbose request registry https://registry.npmjs.org/
+185 verbose url raw /red-hat-patterns.js
+186 verbose url resolving [ 'https://registry.npmjs.org/', './red-hat-patterns.js' ]
+187 verbose url resolved https://registry.npmjs.org/red-hat-patterns.js
+188 verbose request where is https://registry.npmjs.org/red-hat-patterns.js
+189 info trying registry request attempt 1 at 14:55:50
+190 http GET https://registry.npmjs.org/red-hat-patterns.js
+191 silly addNameRange { name: 'gulpfile.js', range: '*', hasData: false }
+192 verbose request where is /README.md
+193 verbose request registry https://registry.npmjs.org/
+194 verbose url raw /README.md
+195 verbose url resolving [ 'https://registry.npmjs.org/', './README.md' ]
+196 verbose url resolved https://registry.npmjs.org/README.md
+197 verbose request where is https://registry.npmjs.org/README.md
+198 info trying registry request attempt 1 at 14:55:50
+199 http GET https://registry.npmjs.org/README.md
+200 silly addNameRange { name: 'package.json', range: '*', hasData: false }
+201 silly addNameRange { name: 'index.html', range: '*', hasData: false }
+202 verbose request where is /gulpfile.js
+203 verbose request registry https://registry.npmjs.org/
+204 verbose url raw /gulpfile.js
+205 verbose url resolving [ 'https://registry.npmjs.org/', './gulpfile.js' ]
+206 verbose url resolved https://registry.npmjs.org/gulpfile.js
+207 verbose request where is https://registry.npmjs.org/gulpfile.js
+208 info trying registry request attempt 1 at 14:55:50
+209 http GET https://registry.npmjs.org/gulpfile.js
+210 verbose request where is /package.json
+211 verbose request registry https://registry.npmjs.org/
+212 verbose url raw /package.json
+213 verbose url resolving [ 'https://registry.npmjs.org/', './package.json' ]
+214 verbose url resolved https://registry.npmjs.org/package.json
+215 verbose request where is https://registry.npmjs.org/package.json
+216 info trying registry request attempt 1 at 14:55:50
+217 http GET https://registry.npmjs.org/package.json
+218 verbose request where is /index.html
+219 verbose request registry https://registry.npmjs.org/
+220 verbose url raw /index.html
+221 verbose url resolving [ 'https://registry.npmjs.org/', './index.html' ]
+222 verbose url resolved https://registry.npmjs.org/index.html
+223 verbose request where is https://registry.npmjs.org/index.html
+224 info trying registry request attempt 1 at 14:55:50
+225 http GET https://registry.npmjs.org/index.html
+226 http 404 https://registry.npmjs.org/README.md
+227 verbose headers { date: 'Tue, 07 Apr 2015 04:55:51 GMT',
+227 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+227 verbose headers   'content-type': 'application/json',
+227 verbose headers   'cache-control': 'max-age=0',
+227 verbose headers   'content-length': '51',
+227 verbose headers   'accept-ranges': 'bytes',
+227 verbose headers   via: '1.1 varnish',
+227 verbose headers   age: '0',
+227 verbose headers   'x-served-by': 'cache-syd1620-SYD',
+227 verbose headers   'x-cache': 'MISS',
+227 verbose headers   'x-cache-hits': '0',
+227 verbose headers   'x-timer': 'S1428382551.249130,VS0,VE194',
+227 verbose headers   'keep-alive': 'timeout=10, max=50',
+227 verbose headers   connection: 'Keep-Alive' }
+228 silly registry.get cb [ 404,
+228 silly registry.get   { date: 'Tue, 07 Apr 2015 04:55:51 GMT',
+228 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+228 silly registry.get     'content-type': 'application/json',
+228 silly registry.get     'cache-control': 'max-age=0',
+228 silly registry.get     'content-length': '51',
+228 silly registry.get     'accept-ranges': 'bytes',
+228 silly registry.get     via: '1.1 varnish',
+228 silly registry.get     age: '0',
+228 silly registry.get     'x-served-by': 'cache-syd1620-SYD',
+228 silly registry.get     'x-cache': 'MISS',
+228 silly registry.get     'x-cache-hits': '0',
+228 silly registry.get     'x-timer': 'S1428382551.249130,VS0,VE194',
+228 silly registry.get     'keep-alive': 'timeout=10, max=50',
+228 silly registry.get     connection: 'Keep-Alive' } ]
+229 silly lockFile cef106a0-README-md README.md@
+230 silly lockFile cef106a0-README-md README.md@
+231 http 404 https://registry.npmjs.org/red-hat-patterns.js
+232 verbose headers { date: 'Tue, 07 Apr 2015 04:55:52 GMT',
+232 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+232 verbose headers   'content-type': 'application/json',
+232 verbose headers   'cache-control': 'max-age=0',
+232 verbose headers   'content-length': '51',
+232 verbose headers   'accept-ranges': 'bytes',
+232 verbose headers   via: '1.1 varnish',
+232 verbose headers   age: '0',
+232 verbose headers   'x-served-by': 'cache-syd1626-SYD',
+232 verbose headers   'x-cache': 'MISS',
+232 verbose headers   'x-cache-hits': '0',
+232 verbose headers   'x-timer': 'S1428382551.256008,VS0,VE769',
+232 verbose headers   'keep-alive': 'timeout=10, max=50',
+232 verbose headers   connection: 'Keep-Alive' }
+233 silly registry.get cb [ 404,
+233 silly registry.get   { date: 'Tue, 07 Apr 2015 04:55:52 GMT',
+233 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+233 silly registry.get     'content-type': 'application/json',
+233 silly registry.get     'cache-control': 'max-age=0',
+233 silly registry.get     'content-length': '51',
+233 silly registry.get     'accept-ranges': 'bytes',
+233 silly registry.get     via: '1.1 varnish',
+233 silly registry.get     age: '0',
+233 silly registry.get     'x-served-by': 'cache-syd1626-SYD',
+233 silly registry.get     'x-cache': 'MISS',
+233 silly registry.get     'x-cache-hits': '0',
+233 silly registry.get     'x-timer': 'S1428382551.256008,VS0,VE769',
+233 silly registry.get     'keep-alive': 'timeout=10, max=50',
+233 silly registry.get     connection: 'Keep-Alive' } ]
+234 silly lockFile 2c5e37e7-red-hat-patterns-js red-hat-patterns.js@
+235 silly lockFile 2c5e37e7-red-hat-patterns-js red-hat-patterns.js@
+236 http 200 https://registry.npmjs.org/src
+237 silly registry.get cb [ 200,
+237 silly registry.get   { date: 'Tue, 07 Apr 2015 04:55:52 GMT',
+237 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+237 silly registry.get     etag: '"94SLEIN7QOM0IK6MMVSUAIVR2"',
+237 silly registry.get     'content-type': 'application/json',
+237 silly registry.get     'cache-control': 'max-age=60',
+237 silly registry.get     'content-length': '5910',
+237 silly registry.get     'accept-ranges': 'bytes',
+237 silly registry.get     via: '1.1 varnish',
+237 silly registry.get     age: '0',
+237 silly registry.get     'x-served-by': 'cache-syd1620-SYD',
+237 silly registry.get     'x-cache': 'MISS',
+237 silly registry.get     'x-cache-hits': '0',
+237 silly registry.get     'x-timer': 'S1428382551.236064,VS0,VE957',
+237 silly registry.get     vary: 'Accept',
+237 silly registry.get     'keep-alive': 'timeout=10, max=50',
+237 silly registry.get     connection: 'Keep-Alive' } ]
+238 silly addNameRange number 2 { name: 'src', range: '*', hasData: true }
+239 silly addNameRange versions [ 'src', [ '0.1.0', '1.0.0', '1.1.0', '1.1.1', '1.1.2' ] ]
+240 verbose addNamed [ 'src', '1.1.2' ]
+241 verbose addNamed [ '1.1.2', '1.1.2' ]
+242 silly lockFile 6d2a472a-src-1-1-2 src@1.1.2
+243 verbose lock src@1.1.2 /Users/beauhankins/.npm/6d2a472a-src-1-1-2.lock
+244 silly lockFile 5ea613e2-stry-npmjs-org-src-src-1-1-2-tgz https://registry.npmjs.org/src/-/src-1.1.2.tgz
+245 verbose lock https://registry.npmjs.org/src/-/src-1.1.2.tgz /Users/beauhankins/.npm/5ea613e2-stry-npmjs-org-src-src-1-1-2-tgz.lock
+246 verbose addRemoteTarball [ 'https://registry.npmjs.org/src/-/src-1.1.2.tgz',
+246 verbose addRemoteTarball   '78abdd1c08caca26cc6cf45bd580b56d93acfb7f' ]
+247 info retry fetch attempt 1 at 14:55:52
+248 verbose fetch to= /var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/registry.npmjs.org/src/-/src-1.1.2.tgz
+249 http GET https://registry.npmjs.org/src/-/src-1.1.2.tgz
+250 http 200 https://registry.npmjs.org/patterns
+251 silly registry.get cb [ 200,
+251 silly registry.get   { date: 'Tue, 07 Apr 2015 04:55:52 GMT',
+251 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+251 silly registry.get     etag: '"8N2GDTCR3CAYFA78RD0IMDJ55"',
+251 silly registry.get     'content-type': 'application/json',
+251 silly registry.get     'cache-control': 'max-age=60',
+251 silly registry.get     'content-length': '6323',
+251 silly registry.get     'accept-ranges': 'bytes',
+251 silly registry.get     via: '1.1 varnish',
+251 silly registry.get     age: '0',
+251 silly registry.get     'x-served-by': 'cache-syd1625-SYD',
+251 silly registry.get     'x-cache': 'MISS',
+251 silly registry.get     'x-cache-hits': '0',
+251 silly registry.get     'x-timer': 'S1428382551.241712,VS0,VE959',
+251 silly registry.get     vary: 'Accept',
+251 silly registry.get     'keep-alive': 'timeout=10, max=50',
+251 silly registry.get     connection: 'Keep-Alive' } ]
+252 http 404 https://registry.npmjs.org/node_modules
+253 verbose headers { date: 'Tue, 07 Apr 2015 04:55:52 GMT',
+253 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+253 verbose headers   'content-type': 'application/json',
+253 verbose headers   'cache-control': 'max-age=0',
+253 verbose headers   'content-length': '51',
+253 verbose headers   'accept-ranges': 'bytes',
+253 verbose headers   via: '1.1 varnish',
+253 verbose headers   age: '0',
+253 verbose headers   'x-served-by': 'cache-syd1625-SYD',
+253 verbose headers   'x-cache': 'MISS',
+253 verbose headers   'x-cache-hits': '0',
+253 verbose headers   'x-timer': 'S1428382551.245999,VS0,VE963',
+253 verbose headers   'keep-alive': 'timeout=10, max=50',
+253 verbose headers   connection: 'Keep-Alive' }
+254 silly registry.get cb [ 404,
+254 silly registry.get   { date: 'Tue, 07 Apr 2015 04:55:52 GMT',
+254 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+254 silly registry.get     'content-type': 'application/json',
+254 silly registry.get     'cache-control': 'max-age=0',
+254 silly registry.get     'content-length': '51',
+254 silly registry.get     'accept-ranges': 'bytes',
+254 silly registry.get     via: '1.1 varnish',
+254 silly registry.get     age: '0',
+254 silly registry.get     'x-served-by': 'cache-syd1625-SYD',
+254 silly registry.get     'x-cache': 'MISS',
+254 silly registry.get     'x-cache-hits': '0',
+254 silly registry.get     'x-timer': 'S1428382551.245999,VS0,VE963',
+254 silly registry.get     'keep-alive': 'timeout=10, max=50',
+254 silly registry.get     connection: 'Keep-Alive' } ]
+255 silly lockFile 1f43ecc2-node-modules node_modules@
+256 silly lockFile 1f43ecc2-node-modules node_modules@
+257 silly addNameRange number 2 { name: 'patterns', range: '*', hasData: true }
+258 silly addNameRange versions [ 'patterns', [ '0.0.1', '1.0.2' ] ]
+259 verbose addNamed [ 'patterns', '1.0.2' ]
+260 verbose addNamed [ '1.0.2', '1.0.2' ]
+261 silly lockFile 96bc70fc-patterns-1-0-2 patterns@1.0.2
+262 verbose lock patterns@1.0.2 /Users/beauhankins/.npm/96bc70fc-patterns-1-0-2.lock
+263 silly lockFile 8cadd143--org-patterns-patterns-1-0-2-tgz https://registry.npmjs.org/patterns/-/patterns-1.0.2.tgz
+264 verbose lock https://registry.npmjs.org/patterns/-/patterns-1.0.2.tgz /Users/beauhankins/.npm/8cadd143--org-patterns-patterns-1-0-2-tgz.lock
+265 verbose addRemoteTarball [ 'https://registry.npmjs.org/patterns/-/patterns-1.0.2.tgz',
+265 verbose addRemoteTarball   '84d0a519e2915512dcabb7e1df09eb12920032cf' ]
+266 info retry fetch attempt 1 at 14:55:52
+267 verbose fetch to= /var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/registry.npmjs.org/patterns/-/patterns-1.0.2.tgz
+268 http GET https://registry.npmjs.org/patterns/-/patterns-1.0.2.tgz
+269 http 404 https://registry.npmjs.org/gulpfile.js
+270 verbose headers { date: 'Tue, 07 Apr 2015 04:55:52 GMT',
+270 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+270 verbose headers   'content-type': 'application/json',
+270 verbose headers   'cache-control': 'max-age=0',
+270 verbose headers   'content-length': '51',
+270 verbose headers   'accept-ranges': 'bytes',
+270 verbose headers   via: '1.1 varnish',
+270 verbose headers   age: '0',
+270 verbose headers   'x-served-by': 'cache-syd1620-SYD',
+270 verbose headers   'x-cache': 'MISS',
+270 verbose headers   'x-cache-hits': '0',
+270 verbose headers   'x-timer': 'S1428382551.562745,VS0,VE958',
+270 verbose headers   'keep-alive': 'timeout=10, max=49',
+270 verbose headers   connection: 'Keep-Alive' }
+271 silly registry.get cb [ 404,
+271 silly registry.get   { date: 'Tue, 07 Apr 2015 04:55:52 GMT',
+271 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+271 silly registry.get     'content-type': 'application/json',
+271 silly registry.get     'cache-control': 'max-age=0',
+271 silly registry.get     'content-length': '51',
+271 silly registry.get     'accept-ranges': 'bytes',
+271 silly registry.get     via: '1.1 varnish',
+271 silly registry.get     age: '0',
+271 silly registry.get     'x-served-by': 'cache-syd1620-SYD',
+271 silly registry.get     'x-cache': 'MISS',
+271 silly registry.get     'x-cache-hits': '0',
+271 silly registry.get     'x-timer': 'S1428382551.562745,VS0,VE958',
+271 silly registry.get     'keep-alive': 'timeout=10, max=49',
+271 silly registry.get     connection: 'Keep-Alive' } ]
+272 silly lockFile d272349f-gulpfile-js gulpfile.js@
+273 silly lockFile d272349f-gulpfile-js gulpfile.js@
+274 http 404 https://registry.npmjs.org/index.html
+275 silly registry.get cb [ 404,
+275 silly registry.get   { date: 'Tue, 07 Apr 2015 04:55:52 GMT',
+275 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+275 silly registry.get     etag: '"7720X4DENJBX5QH7L29472DNR"',
+275 silly registry.get     'content-type': 'application/json',
+275 silly registry.get     'cache-control': 'max-age=0',
+275 silly registry.get     'content-length': '409',
+275 silly registry.get     'accept-ranges': 'bytes',
+275 silly registry.get     via: '1.1 varnish',
+275 silly registry.get     age: '0',
+275 silly registry.get     'x-served-by': 'cache-syd1620-SYD',
+275 silly registry.get     'x-cache': 'MISS',
+275 silly registry.get     'x-cache-hits': '0',
+275 silly registry.get     'x-timer': 'S1428382552.298604,VS0,VE242',
+275 silly registry.get     vary: 'Accept',
+275 silly registry.get     'keep-alive': 'timeout=10, max=49',
+275 silly registry.get     connection: 'Keep-Alive' } ]
+276 silly lockFile 31508839-index-html index.html@
+277 silly lockFile 31508839-index-html index.html@
+278 http 200 https://registry.npmjs.org/package.json
+279 silly registry.get cb [ 200,
+279 silly registry.get   { date: 'Tue, 07 Apr 2015 04:55:53 GMT',
+279 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+279 silly registry.get     etag: '"9V2KDZDTROL0KHF0AXYT90ZL"',
+279 silly registry.get     'content-type': 'application/json',
+279 silly registry.get     'cache-control': 'max-age=60',
+279 silly registry.get     'content-length': '1051',
+279 silly registry.get     'accept-ranges': 'bytes',
+279 silly registry.get     via: '1.1 varnish',
+279 silly registry.get     age: '0',
+279 silly registry.get     'x-served-by': 'cache-syd1626-SYD',
+279 silly registry.get     'x-cache': 'MISS',
+279 silly registry.get     'x-cache-hits': '0',
+279 silly registry.get     'x-timer': 'S1428382552.063696,VS0,VE956',
+279 silly registry.get     vary: 'Accept',
+279 silly registry.get     'keep-alive': 'timeout=10, max=49',
+279 silly registry.get     connection: 'Keep-Alive' } ]
+280 silly addNameRange number 2 { name: 'package.json', range: '*', hasData: true }
+281 silly addNameRange versions [ 'package.json', [ '0.0.0' ] ]
+282 verbose addNamed [ 'package.json', '0.0.0' ]
+283 verbose addNamed [ '0.0.0', '0.0.0' ]
+284 silly lockFile 8dd0b86f-package-json-0-0-0 package.json@0.0.0
+285 verbose lock package.json@0.0.0 /Users/beauhankins/.npm/8dd0b86f-package-json-0-0-0.lock
+286 silly lockFile 81391ec0-kage-json-package-json-0-0-0-tgz https://registry.npmjs.org/package.json/-/package.json-0.0.0.tgz
+287 verbose lock https://registry.npmjs.org/package.json/-/package.json-0.0.0.tgz /Users/beauhankins/.npm/81391ec0-kage-json-package-json-0-0-0-tgz.lock
+288 verbose addRemoteTarball [ 'https://registry.npmjs.org/package.json/-/package.json-0.0.0.tgz',
+288 verbose addRemoteTarball   '1b89bd73ac984da9629af20c1375437adcc5dac6' ]
+289 info retry fetch attempt 1 at 14:55:53
+290 verbose fetch to= /var/folders/4z/fwmp_4kn1l9b0mf95h6ytc9m0000gn/T/npm-9493-dZFQ-loh/registry.npmjs.org/package.json/-/package.json-0.0.0.tgz
+291 http GET https://registry.npmjs.org/package.json/-/package.json-0.0.0.tgz
+292 http 200 https://registry.npmjs.org/package.json/-/package.json-0.0.0.tgz
+293 silly lockFile 81391ec0-kage-json-package-json-0-0-0-tgz https://registry.npmjs.org/package.json/-/package.json-0.0.0.tgz
+294 silly lockFile 81391ec0-kage-json-package-json-0-0-0-tgz https://registry.npmjs.org/package.json/-/package.json-0.0.0.tgz
+295 silly lockFile 8dd0b86f-package-json-0-0-0 package.json@0.0.0
+296 silly lockFile 8dd0b86f-package-json-0-0-0 package.json@0.0.0
+297 silly lockFile 20e84675-package-json package.json@
+298 silly lockFile 20e84675-package-json package.json@
+299 http 200 https://registry.npmjs.org/src/-/src-1.1.2.tgz
+300 http 200 https://registry.npmjs.org/patterns/-/patterns-1.0.2.tgz
+301 silly lockFile 5ea613e2-stry-npmjs-org-src-src-1-1-2-tgz https://registry.npmjs.org/src/-/src-1.1.2.tgz
+302 silly lockFile 5ea613e2-stry-npmjs-org-src-src-1-1-2-tgz https://registry.npmjs.org/src/-/src-1.1.2.tgz
+303 silly lockFile 6d2a472a-src-1-1-2 src@1.1.2
+304 silly lockFile 6d2a472a-src-1-1-2 src@1.1.2
+305 silly lockFile f898f162-src src@
+306 silly lockFile f898f162-src src@
+307 silly lockFile 8cadd143--org-patterns-patterns-1-0-2-tgz https://registry.npmjs.org/patterns/-/patterns-1.0.2.tgz
+308 silly lockFile 8cadd143--org-patterns-patterns-1-0-2-tgz https://registry.npmjs.org/patterns/-/patterns-1.0.2.tgz
+309 silly lockFile 96bc70fc-patterns-1-0-2 patterns@1.0.2
+310 silly lockFile 96bc70fc-patterns-1-0-2 patterns@1.0.2
+311 silly lockFile 62e3d83c-patterns patterns@
+312 silly lockFile 62e3d83c-patterns patterns@
+313 error 404 404 Not Found: README.md
+313 error 404
+313 error 404 'README.md' is not in the npm registry.
+313 error 404 You should bug the author to publish it
+313 error 404 It was specified as a dependency of 'red-hat-brand-patterns'
+313 error 404
+313 error 404 Note that you can also install from a
+313 error 404 tarball, folder, or http url, or git url.
+314 error System Darwin 14.1.0
+315 error command "node" "/usr/local/bin/npm" "install" "README.md" "gulpfile.js" "index.html" "node_modules" "package.json" "patterns" "red-hat-patterns.js" "src"
+316 error cwd /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/RedHatPatterns
+317 error node -v v0.10.36
+318 error npm -v 1.4.28
+319 error code E404
+320 verbose exit [ 1, true ]
