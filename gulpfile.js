@@ -12,7 +12,7 @@ var http        = require('http'),
 var app = connect().use(serveStatic(__dirname));
 
 gulp.task('build', function () {
-  var patterns = fs.readdirSync('./patterns').map(function (filename) {
+  var patterns = fs.readdirSync('./patterns/none').map(function (filename) {
     return {
       name: filename.split('.').shift(),
       value: fs.readFileSync('./patterns/' + filename, { encoding: 'utf8' }).replace(/\n/g, ' ')
