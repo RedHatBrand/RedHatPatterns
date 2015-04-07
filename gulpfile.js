@@ -15,7 +15,7 @@ gulp.task('build', function () {
   var patterns = fs.readdirSync('./patterns/none').map(function (filename) {
     return {
       name: filename.split('.').shift(),
-      value: fs.readFileSync('./patterns/' + filename, { encoding: 'utf8' }).replace(/\n/g, ' ')
+      value: fs.readFileSync('./patterns/none/' + filename, { encoding: 'utf8' }).replace(/\n/g, ' ')
     };
   });
 
