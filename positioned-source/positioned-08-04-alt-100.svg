@@ -2,51 +2,51 @@
   <g transform="translate(200 1200)">
     <g transform="rotate(-45)">
       <svg x="0" y="0" viewBox="0 0 60 60" width="141.4" height="141.4">
-        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:square" />
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
       </svg>
 
       <svg x="141.4" y="0" viewBox="0 0 60 60" width="141.4" height="141.4">
-        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:square" />
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
       </svg>
 
       <svg x="282.8" y="0" viewBox="0 0 60 60" width="141.4" height="141.4">
-        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:square" />
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
       </svg>
 
       <svg x="424.2" y="0" viewBox="0 0 60 60" width="141.4" height="141.4">
-        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:square" />
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
       </svg>
 
       <svg x="565.6" y="0" viewBox="0 0 60 60" width="141.4" height="141.4">
-        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:square" />
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
       </svg>
 
       <svg x="707.0" y="0" viewBox="0 0 60 60" width="141.4" height="141.4">
-        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:square" />
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
       </svg>
 
       <svg x="848.4" y="0" viewBox="0 0 60 60" width="141.4" height="141.4">
-        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:square" />
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
       </svg>
 
       <svg x="989.8" y="0" viewBox="0 0 60 60" width="141.4" height="141.4">
-        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:square" />
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
       </svg>
 
       <svg x="1131.2" y="0" viewBox="0 0 60 60" width="141.4" height="141.4">
-        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:square" />
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
       </svg>
 
       <svg x="1272.6" y="0" viewBox="0 0 60 60" width="141.4" height="141.4">
-        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:square" />
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
       </svg>
 
       <svg x="1414.0" y="0" viewBox="0 0 60 60" width="141.4" height="141.4">
-        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:square" />
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
       </svg>
 
       <svg x="1555.4" y="0" viewBox="0 0 60 60" width="141.4" height="141.4">
-        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:square" />
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
       </svg>
     </g>
   </g>
