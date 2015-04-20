@@ -1,0 +1,105 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1200" width="1200" height="1200">
+  <g transform="translate(-100 1200)">
+    <g transform="rotate(-45)" viewBox="0 0 1200 70.7">
+      <svg x="0" y="0" viewBox="0 0 60 60" width="70.7" height="70.7">
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
+      </svg>
+
+      <svg x="70.7" y="0" viewBox="0 0 60 60" width="70.7" height="70.7">
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
+      </svg>
+
+      <svg x="141.4" y="0" viewBox="0 0 60 60" width="70.7" height="70.7">
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
+      </svg>
+
+      <svg x="212.1" y="0" viewBox="0 0 60 60" width="70.7" height="70.7">
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
+      </svg>
+
+      <svg x="282.8" y="0" viewBox="0 0 60 60" width="70.7" height="70.7">
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
+      </svg>
+
+      <svg x="353.5" y="0" viewBox="0 0 60 60" width="70.7" height="70.7">
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
+      </svg>
+
+      <svg x="424.2" y="0" viewBox="0 0 60 60" width="70.7" height="70.7">
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
+      </svg>
+
+      <svg x="494.9" y="0" viewBox="0 0 60 60" width="70.7" height="70.7">
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
+      </svg>
+
+      <svg x="565.6" y="0" viewBox="0 0 60 60" width="70.7" height="70.7">
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
+      </svg>
+
+      <svg x="636.3" y="0" viewBox="0 0 60 60" width="70.7" height="70.7">
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
+      </svg>
+
+      <svg x="707.0" y="0" viewBox="0 0 60 60" width="70.7" height="70.7">
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
+      </svg>
+
+      <svg x="777.7" y="0" viewBox="0 0 60 60" width="70.7" height="70.7">
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
+      </svg>
+
+      <svg x="848.4" y="0" viewBox="0 0 60 60" width="70.7" height="70.7">
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
+      </svg>
+
+      <svg x="919.1" y="0" viewBox="0 0 60 60" width="70.7" height="70.7">
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
+      </svg>
+
+      <svg x="989.8" y="0" viewBox="0 0 60 60" width="70.7" height="70.7">
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
+      </svg>
+
+      <svg x="1060.5" y="0" viewBox="0 0 60 60" width="70.7" height="70.7">
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
+      </svg>
+
+      <svg x="1131.2" y="0" viewBox="0 0 60 60" width="70.7" height="70.7">
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
+      </svg>
+
+      <svg x="1201.9" y="0" viewBox="0 0 60 60" width="70.7" height="70.7">
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
+      </svg>
+
+      <svg x="1272.6" y="0" viewBox="0 0 60 60" width="70.7" height="70.7">
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
+      </svg>
+
+      <svg x="1343.3" y="0" viewBox="0 0 60 60" width="70.7" height="70.7">
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
+      </svg>
+
+      <svg x="1414.0" y="0" viewBox="0 0 60 60" width="70.7" height="70.7">
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
+      </svg>
+
+      <svg x="1484.7" y="0" viewBox="0 0 60 60" width="70.7" height="70.7">
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
+      </svg>
+
+      <svg x="1555.4" y="0" viewBox="0 0 60 60" width="70.7" height="70.7">
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
+      </svg>
+
+      <svg x="1626.1" y="0" viewBox="0 0 60 60" width="70.7" height="70.7">
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
+      </svg>
+
+      <svg x="1696.8" y="0" viewBox="0 0 60 60" width="70.7" height="70.7">
+        <path d="{{ path }}" style="fill:none;stroke:{{ color }};stroke-width:0.5;stroke-linecap:{{line_cap}}" />
+      </svg>
+    </g>
+  </g>
+</svg>
