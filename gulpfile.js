@@ -32,6 +32,7 @@ gulp.task('positioned', function () {
   var colors = [
     { name: 'none', value: 'none' },
     { name: 'red', value: 'hsl(0, 100%, 30%)' },
+    { name: 'red-light', value: '#e00' },
     { name: 'yellow', value: 'hsl(42, 100%, 54%)' },
     { name: 'blue', value: 'hsl(206, 68%, 59%)' },
     { name: 'blue-mid', value: 'hsl(206, 54%, 39%)' },
